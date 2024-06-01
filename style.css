@@ -1,0 +1,46 @@
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(91, 29, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 24px;
+}
+
+#key{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+}
+
+.conteiner_k input{
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.conteiner_k button{
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.conteiner_k h4{
+    margin: 10px auto;
+}
+
+
+.sumiu{
+    display: none !important;
+}
